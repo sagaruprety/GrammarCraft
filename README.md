@@ -1,6 +1,6 @@
 # English Improvement Agent
 
-This is a streamlit app to accomplish the task provided in the file [Test_Instructions](./Test_Instructions.pdf). 
+This is a streamlit app for a simple english improvement and summarisation agent.
 
 ## Instructions to run the app
 
@@ -49,7 +49,6 @@ Specifically, I use the [G-Eval](https://arxiv.org/pdf/2303.16634.pdf) evaluatio
 Essentially for all three tasks, there are 4 criteria to evaluate which are listed [here](./eval_metrics_info.md). These criteria and associated steps are fed as a prompt to a superior model (GPT-4 in this case), to evaluate the performance of the model used in the three tasks.
 
 Grammar is evaluated as part of the fluency metric.
-
 
 Summaries are evaluated as part of the relevance and coherence metric.
 
