@@ -36,7 +36,7 @@ def print_scores(task_metric_scores: dict):
             if metric_name == 'Fluency':
                 return(f"{metric_name}: {metric_value}/3")
         elif task_type == 'Summarise text':
-            if metric_name in ['Relevance', 'Coherence']:
+            for metric_name in ['Relevance', 'Coherence']:
                 return(f"{metric_name}: {metric_value}/5")
         elif task_type == 'Improve both grammar and style':
             if metric_name in ['Fluency', 'Consistency']:
