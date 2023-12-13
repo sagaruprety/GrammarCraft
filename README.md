@@ -1,4 +1,4 @@
-# English Improvement Agent
+# GrammarCraft - An English Improvement Agent
 
 This is a streamlit app for a simple english improvement and summarisation agent.
 
